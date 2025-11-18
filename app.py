@@ -6,7 +6,6 @@ import os
 import uuid
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
-from sqlalchemy import create_engine
 from preprocess import preprocess_text  , normalize_contractions , clean_text_with_emojis # your custom preprocessing function
 from pymongo import MongoClient
 import datetime
@@ -307,3 +306,4 @@ try:
 except Exception as e:
     st.info("No data in database yet or connection issue.")
     st.write(e)
+
