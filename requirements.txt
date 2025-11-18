@@ -1,0 +1,26 @@
+# Core Libraries
+streamlit
+pandas
+numpy
+datetime
+# Machine Learning Models
+scikit-learn
+xgboost
+catboost
+lightgbm
+transformers
+torch
+
+# Text Processing
+nltk
+emoji
+regex
+
+# Database Connection
+mysql-connector-python
+pyodbc
+pymongo
+# Utility
+tqdm
+joblib
+
