@@ -6,6 +6,7 @@ import emoji
 # from textblob import TextBlob
 nltk.download("punkt")
 nltk.download("stopwords")
+nltk.download("punkt_tab") 
 nltk.download("wordnet")
 stop_words = set(stopwords.words("english"))
 lemmatizer = WordNetLemmatizer()
@@ -113,6 +114,7 @@ def clean_text_with_emojis(text: str) -> str:
     text = replace_emoticons(text)
     text = replace_emojis(text)
     return text
+
 
 
 
