@@ -23,4 +23,5 @@ pymongo
 # Utility
 tqdm
 joblib
+openpyxl
 
